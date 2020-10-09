@@ -1,0 +1,170 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Layout */
+body
+{
+	width: 100%;
+	height: 100%;
+	background: #fff;	
+}
+
+#splash
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+}
+
+#hola {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 500px;
+    height: 50px;
+    background-color: #000000;
+    color: #99FFFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+#dado {
+	position: absolute;
+	top: 60px;
+	left: 320px;
+	border-style: double;
+}
+
+#tiraDado {
+	position: absolute;
+	top: 280px;
+	left: 370px;
+	border-style: solid;
+	border-color: blue;
+	background-color: #84C4FF;
+	font-size: 48px;
+}
+
+#bot0 {
+	position: absolute;
+	bottom: 20px;
+	left: 30px;
+	font-size: 22px;
+	border-style: double;
+	border-color: green;
+	background-color: #86FF84;
+}
+
+#bot1 {
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+	font-size: 22px;
+	border-style: double;
+	border-color: yellow;
+	background-color: #FFF684;
+}
+
+#splash
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+}
+
+#mapa
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#myPlayers
+{
+	width:100%;
+	height:100%; 
+	position: absolute;
+	border: solid;
+	right: 0;
+	top:0;
+	z-index: 2;
+}
+
+#texto
+{
+	position:absolute;
+	left: 400px;
+	bottom: 250px;
+	color: #000;
+	font-size: 40px;;
+	z-index: 3;	
+}
+
+#texto1
+{
+	position:absolute;
+	left: 400px;
+	bottom: 600px;
+	color: #000;
+	font-size: 40px;;
+	z-index: 3;	
+}
+
+#texto2
+{
+	position:absolute;
+	left: 400px;
+	bottom: 300px;
+	color: #000;
+	font-size: 40px;;
+	z-index: 3;	
+}
+
+#i1
+{
+	position: absolute;
+	left: 160px;
+	top: 585px;
+	width: 7%;
+	height: 14%;
+	z-index: 2;	
+}
+
+#i2
+{
+	position: absolute;
+	left: 120px;
+	top: 585px;
+	width: 7%;
+	height: 14%;
+	z-index: 2;	
+}
+
+#i3
+{
+	position: absolute;
+	left: 80px;
+	top: 585px;
+	width: 7%;
+	height: 14%;
+	z-index: 2;	
+}
+
+#i4
+{
+	position: absolute;
+	left: 40px;
+	top: 585px;
+	width: 7%;
+	height: 14%;
+	z-index: 2;	
+}

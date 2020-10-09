@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>mapa</title>
+
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Australia.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Canada.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/China.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Germany.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Iceland.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/India.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Indonesia.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Jamaica.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/lasVegas.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/London.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Netherlands.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Pais.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Paris.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Peru.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Rio.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Rome.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Rusia.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/SouthAfrica.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Vienna.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/mapa.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/map.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/dado.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/players.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/jugadores.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/prototype.js" ></script> 
+		<script language="javascript" type="text/javascript" src="app/javascript/lowpro.js"></script> 
+		<script language="javascript" type="text/javascript" src="app/javascript/popup.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/questionScript.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/popupLayout.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Tips.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/tipScript.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Trampa.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/trampaScript.js"></script>
+
+	
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+
+		<!-- TODO: Plugins -->
+
+	</head>
+
+	<body onload="mapa.onLoad();" onunload="mapa.onUnload();">
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="mapa.keyDown();"></a>
+		<div id="mapa"><img alt="" src="app/img/mapa/1280x720_tablero.png">
+			<img id="i1" alt="" src="app/img/jug/h1ama.png">
+			<img id="i2" alt="" src="app/img/jug/h1ama.png">
+			<img id="i3" alt="" src="app/img/jug/h1ama.png">
+			<img id="i4" alt="" src="app/img/jug/h1ama.png">
+		</div>
+		<div id="texto"></div>
+		<div id="texto1"></div>
+		<div id="texto2"></div>
+		<div class="popup" id="mpopup" style="display: none; width: 40em; 
+			height: 10em" onkeydown="cerrarPopUp();"></div>
+		<!-- TODO: your code here -->
+	</body>
+</html>
+
+
+

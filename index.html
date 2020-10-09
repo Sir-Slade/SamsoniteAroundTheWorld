@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>HelloWorld</title>
+
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+		
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/prototype.js" ></script> 
+		<script language="javascript" type="text/javascript" src="app/javascript/lowpro.js"></script> 
+		<script language="javascript" type="text/javascript" src="app/javascript/popup.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/mainKeys.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/questionScript.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/popupLayout.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Paises/Pais.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/tutorialScript.js"></script>
+		
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+
+		<!-- TODO: Plugins -->
+
+	</head>
+
+	<body onload="Main.onLoad();">
+
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+		<a href="numJug.html" id="linkNumJug"></a>
+		<div id="splash"><img alt="" src="app/img/1280x720_splash.png"></div>		
+		<div id="menu" style="color:#000000; background-color:#FFFFFF">
+			<img id="fondo" alt="" style="margin-left:-8px; margin-top:-8px" 
+				src="app/img/960x560_inicio.png">
+			
+		</div>
+		<div id="texto"></div>
+		<div class="popup" id="mpopup" style="display: none; width: 40em; 
+			height: 10em" onkeydown="cerrarPopUp();"></div>
+			
+		<div class="popup" id="tutorial" style="display: none; width: 50em; 
+			height: 30em" onkeydown="cerrarPopUp();"></div>
+		
+	</body>
+</html>
